@@ -1,0 +1,79 @@
+*,html,body
+{
+  margin: 0;
+  padding: 0;
+}
+header
+{
+  background-color: orange;
+  height: 165px;
+  line-height: 165px;
+}
+ul
+{
+  list-style:none;
+}
+ul li{
+  display: inline-block;
+}
+header nav
+{
+  float: right;
+}
+.logo img{
+  margin-top: 10px;
+}
+header nav ul li{
+  padding: 20px;
+font-size: 20px;
+font-weight: bold;
+transition: all 0.5s;
+font-display: block;
+}
+
+header nav ul li a:hover
+{
+  text-decoration: none;
+  color:red;
+}
+img{
+  text-align: right;
+  margin-left: 10px;
+  margin-top: -60px;
+}
+
+section h5{
+  padding: 20px;
+font-size: 25px;
+margin-left: 1000px;
+font-weight: bold;
+color: rgb(0, 50, 194);
+}
+.logo1 img{
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.logo2 img{
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.logo3 img{
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+contact input{
+ width: 350px;
+ height: 50px;
+ background-color:#ffe6e6;
+ font-size: 20px;
+ font-weight: bold;
+  margin-left: 150px;
+}
+contact p{
+
+font-size: 20px;
+font-weight: bold;
+
+  margin-left: 30px;
+}
